@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+
+}
+.completed{
+  text-decoration: line-through;
+  color: red;
+}
+.none{
+  text-decoration:none;
+}
+
+.deleteItem{
+  background-color: red;
+
+}
+ol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.indiv{
+  height: 50vh;
+  width: 50vw;
+  border: 10px solid #587787;
+  background-color: #90AFC5;
+  align-self: center;
+  color: #587787;
+  box-shadow: #282c34;
+  margin: auto auto;
+  overflow: scroll;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

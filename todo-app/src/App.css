@@ -17,8 +17,10 @@
 ol{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 40%;
+  justify-content: space-around;
+  text-align: right;
+  align-self: flex-start;
+  width: 70%;
 }
 
 .indiv{
